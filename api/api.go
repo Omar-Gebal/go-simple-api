@@ -14,6 +14,11 @@ type CoinBalanceResponse struct {
 	Balance int64
 }
 
+type ApiDescription struct {
+	Version      string
+	Descrtiption string
+}
+
 type Error struct {
 	Code    int
 	Message string
